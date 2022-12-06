@@ -5,7 +5,7 @@
 
 [Terraform Module Registry](https://registry.terraform.io/modules/tobeyOguney/loki-on-ecs/aws)
 
-A Terraform module to install [Loki](https://github.com/grafana/loki/) on an ECS cluster utilizing DynamoDB and S3 as storage backends.
+A Terraform module to install [Loki](https://github.com/grafana/loki/) on an existing ECS cluster utilizing DynamoDB and S3 as storage backends.
 
 <!-- BEGIN_TF_DOCS -->
 <!-- END_TF_DOCS -->
