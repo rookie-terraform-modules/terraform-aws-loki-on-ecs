@@ -52,7 +52,7 @@ resource "aws_lb_target_group" "loki_lb_target_group" {
 # create loki service
 resource "aws_ecs_service" "loki_service" {
   name            = "loki-${var.ecs_cluster_name}"
-  cluster         = data.aws_ecs_cluster.target_ecs_cluster.id
+  cluster         = data.aws_ecs_cluster.target_cluster.id
   task_definition = aws_ecs_task_definition.loki_task_definition.arn
   desired_count   = var.loki_desired_container_count
   launch_type     = "FARGATE"
