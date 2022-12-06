@@ -1,5 +1,7 @@
 data "aws_caller_identity" "current" {}
 
+data "aws_region" "current" {}
+
 # ECR token for pushing images
 data "aws_ecr_authorization_token" "current" {}
 

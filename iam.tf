@@ -41,7 +41,7 @@ data "aws_iam_policy_document" "loki_task_role_policy" {
     ]
 
     resources = [
-      "arn:aws:dynamodb:${data.aws_caller_identity.current.region}:${data.aws_caller_identity.current.account_id}:table/${local.loki_index_prefix}*",
+      "arn:aws:dynamodb:${data.aws_region.current.name}:${data.aws_caller_identity.current.account_id}:table/${local.loki_index_prefix}*",
     ]
   }
 

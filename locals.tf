@@ -33,9 +33,9 @@ locals {
     }
     storage_config = {
       aws = {
-        s3 = "s3://${data.aws_caller_identity.current.region}/${aws_s3_bucket.loki_chunks.bucket}"
+        s3 = "s3://${data.aws_region.current.name}/${aws_s3_bucket.loki_chunks.bucket}"
         dynamodb = {
-          dynamodb_url = "dynamodb://${data.aws_caller_identity.current.region}"
+          dynamodb_url = "dynamodb://${data.aws_region.current.name}"
         }
       }
     }
