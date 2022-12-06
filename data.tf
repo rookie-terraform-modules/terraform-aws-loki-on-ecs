@@ -7,5 +7,5 @@ data "aws_ecr_authorization_token" "current" {}
 
 # get the ECS cluster
 data "aws_ecs_cluster" "target_cluster" {
-  name = var.ecs_cluster_name
+  cluster_name = var.ecs_cluster_name
 }
