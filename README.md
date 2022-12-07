@@ -40,5 +40,5 @@ A Terraform module to install [Loki](https://github.com/grafana/loki/) on an exi
 
 | Name | Description |
 |------|-------------|
-| <a name="output_loki_target_group_arn"></a> [loki\_target\_group\_arn](#output\_loki\_target\_group\_arn) | n/a |
+| <a name="output_loki_target_group_arn"></a> [loki\_target\_group\_arn](#output\_loki\_target\_group\_arn) | The ARN of the target group for Loki |
 <!-- END_TF_DOCS -->
