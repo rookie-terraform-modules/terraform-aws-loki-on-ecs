@@ -41,8 +41,8 @@ Got the Loki configuration from [here](https://github.com/iplabs/terraform-kuber
 
 ## Outputs
 
-| Name                                                                                               | Description |
-| -------------------------------------------------------------------------------------------------- | ----------- |
-| <a name="output_loki_target_group_arn"></a> [loki_target_group_arn](#output_loki_target_group_arn) | n/a         |
+| Name                                                                                               | Description                          |
+| -------------------------------------------------------------------------------------------------- | ------------------------------------ |
+| <a name="output_loki_target_group_arn"></a> [loki_target_group_arn](#output_loki_target_group_arn) | The ARN of the target group for Loki |
 
 <!-- END_TF_DOCS -->
