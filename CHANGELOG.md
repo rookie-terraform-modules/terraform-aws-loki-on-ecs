@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/tobeyOguney/terraform-aws-loki-on-ecs/compare/v0.1.0...v0.1.1) (2022-12-07)
+
+
+### Bug Fixes
+
+* add missing credits ([7c7a3c0](https://github.com/tobeyOguney/terraform-aws-loki-on-ecs/commit/7c7a3c00ca7875a9fcf2b9e41fa550aa7c6c8210))
+
 ## 0.1.0 (2022-12-06)
 
 
